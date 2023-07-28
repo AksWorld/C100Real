@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+
+</head>
+
+<body>
+    
+    
+<center>
+   
+    <span id="Heading"> <h1>Selfie Collage App       </h1>
+        <img  id="logo"src="Selfie_logo-removebg-preview.png"></span>
+    <hr>
+    <h4 id="warning">As soon as the popup appears please press allow and speak.After you have spoken this command </h4>
+    <h3>Say selfie to the camera for it to take your selfie and form a collage of selfies</h3>
+    <label>Your voice output : </label>
+    <textarea class="form-control" id="textbox" readonly="true"></textarea>
+    <button class="btn btn-primary" onclick="start()" id="start">Start</button>
+    <h4>Please press the button to begin</h4>
+    <label>Your webcam : </label>
+    <div id="camera"></div>
+    <label id="label">All selfies will be displayed here</label>
+    <div id="resultShow">
+        <span><span id="result1"> 
+        <img id="selfie1"src="pic1.jpg"></span>
+        <span id="result2"> <img id="selfie2"src="pic2.jpg">
+        </span></span>
+        
+        <div id="result3"> 
+            <img id="selfie3"src="pic3.jpg">
+            </div>
+            
+    </div>
+    
+</center>
+<div id="footer">
+    Made by - Akshay
+</div>
+</body>
+
+</html>
